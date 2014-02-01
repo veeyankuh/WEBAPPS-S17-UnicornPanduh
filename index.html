@@ -7,12 +7,22 @@
 </head>
 
 <body>
-<div class="content">
+<div id="content">
 	<form>
-	<input type="text" name="findNear" placeholder="Find Near" size="59px" onkeyPress="displayResult()"><br>
+	<input type="text" id="findNear" placeholder="Find Near" size="66px" onkeyPress="displayResult()"><br>
 	</form>
-    <select>
-    	<option value="" disabled selected>Organization</option>
+    <ul>
+    	<li><h4>Adamson University (Student Government)</h4><p>Ermita, Manila</p></li>
+    	<li><h4>Philippine Red Cross</h4><p>Aurora Blvd., Pasay</p></li>
+    	<li><h4>University of Sto. Tomas</h4><p>España, Manila</p></li>
+    	<li><h4>Mu Sigma Phi of Up Manila</h4><p>Padre Faura corner Maria Orosa Streets, Ermita, Manila</p></li>
+    	<li><h4>San Beda College</h4><p>Mendiola, Manila</p></li>
+    	<li><h4>Rotaract Club of Manila Metro</h4><p>Manila</p></li>
+    	<li><h4>Polytechnic University of the Philippines (Student Council)</h4><p>
+    	<li><h4>De La Salle University - Center for Social Concern and Action</h4><p>Taft Ave., Manila</p></li>
+    </ul>
+    <!--<select>
+       	<option value="" disabled selected>Organization</option>
         <option value="" disabled>-----------------</option>
     	<option value="AdU">Adamson Universitiy (Student Government)</option>
         <option value="RC">Philippine Red Cross</option>
@@ -33,7 +43,16 @@
 <!--<p></p>!-->
 <script>
 	function displayResult(){
+		var place = document.getElementById('findNear');
+		document.addEventListener();
+		//var place = document.getElementById("findNear").value;
+		//document.write(place);
 		//code to retrieve list of orgs
+		
+		/*document.addEventListener("DOMContentLoaded", function(){
+			var place = document.getElementById("findNear").value;
+			alert(place);
+		}, false);*/
 	}
 </script>
 </body>
