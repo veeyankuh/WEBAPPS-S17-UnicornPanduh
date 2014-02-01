@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+article, section, aside, hgroup, nav, header, footer, figure, figcaption { 
+    display: block;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+	background-color:#f4ead5;
+}
+
+footer {
+    height: 50px;
+    clear: both;
+}
+
+img {
+    border: none;
+}
+
+#wrapper {
+    width: 990px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#content {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 20px 100px;
+}
+
+h1, h2, h3 {
+	font: Helvetica, Verdana, sans-serif;
+	color:#17ABB7;
+}
+
+h1 {
+	font-size:30px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  width: 700px;
+}
+ 
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+}
+ 
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+  color:#e94e77;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+}
+ 
+li {
+  padding: 10px;
+  overflow: auto;
+  cursor: pointer;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
+}
+ 
+li:hover {
+  background: #eee;
+}
+
+li:hover img {
+  float: left;
+  margin: 0 15px 0 0;
+  opacity: 1.0;
+}
+
+li:hover p {
+	color:#C71848;
+}
+
+a {
+  color:#e94e77;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+}
+
+a:hover {
+	color:#C71848;
+}
+
+	
