@@ -9,20 +9,31 @@
 <body>
 <div class="content">
 	<form>
-	<input type="text" name="findNear" placeholder="Find Near"><br>
+	<input type="text" name="findNear" placeholder="Find Near" size="55px" onkeyPress="displayResult()"><br>
 	</form>
     <select>
     	<option value="" disabled selected>Organization</option>
-    	<option value="Adamson University">Adamson Universitiy</option>
-        <option value="Red Cross">Red Cross</option>
+        <option value="" disabled>-----------------</option>
+    	<option value="AdU">Adamson Universitiy</option>
+        <option value="RC">Red Cross</option>
+        <option value="UST">University of Sto. Tomas</option>
+        <option value="MSP">Mu Sigma Phi of UP Manila</option>
+        <option value="San Beda">San Beda College</option>
+        <option value="Rotaract">Rotaract Club of Manila Metro</option>
+        <option value="PUP">Polytechnic University of the Philippines Student Council</option>
     </select>
+    <!--<keygen onKeyPress="displayResult()">!-->
 </div>
 <footer class="mainFooter">
 <a href="#">Home</a> | 
 <a href="#">About Us</a> |
 <a href="#">Contact Us</a>
-
 </footer>
 <!--<p></p>!-->
+<script>
+	function displayResult(){
+		//code to retrieve list of orgs
+	}
+</script>
 </body>
 </html>
